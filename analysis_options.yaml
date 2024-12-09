@@ -1,0 +1,10 @@
+# analysis_options.yaml
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    prefer_const_constructors: true
+    prefer_const_literals_to_create_immutables: true
+    library_private_types_in_public_api: false
+    sort_child_properties_last: true
+    # Add more rules as needed

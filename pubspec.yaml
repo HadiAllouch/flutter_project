@@ -1,0 +1,63 @@
+# pubspec.yaml
+
+name: myfirst_application_1
+description: A new Flutter application for Fitness Core Gym.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^1.1.6 # SVG support
+  cupertino_icons: ^1.0.2 # iOS style icons
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0 # Linting support
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    # Icons
+    - assets/icons/search.svg
+    - assets/icons/filter.svg
+    - assets/icons/arrow-Left.svg
+    - assets/icons/dots.svg
+    - assets/icons/body.png
+    - assets/icons/muscle.png
+    - assets/icons/abs.png
+    - assets/icons/leg.png
+    - assets/icons/squats.png
+    - assets/icons/body.png
+    - assets/icons/back.png
+    - assets/icons/shoulder.png
+
+    # Images
+    - assets/images/Body.png
+    - assets/images/Muscle.png
+    - assets/images/ABS.png
+    - assets/images/Legs.png
+    - assets/images/squats.png
+    - assets/images/Body.png
+    - assets/images/Back.png
+    - assets/images/shoulders.png
+    - assets/images/diet_plans/Salad.png
+    - assets/images/diet_plans/Grilled.png
+    - assets/images/diet_plans/Quinao-Bowi.png
+    - assets/images/diet_plans/Avoca-Toast.png
+    - assets/images/offers/daily_offer.png
+    - assets/images/offers/monthly_offer.png
+    - assets/images/offers/yearly_offer.png
+    
+   
+ 
+    # # Add more assets as needed
+ 
